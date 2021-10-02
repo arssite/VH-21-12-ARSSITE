@@ -1,0 +1,25 @@
+#ars{
+width: 50px;
+height: 20px;
+font-size: 15px;
+text-align: center;
+padding: 5px;
+border-radius: 610px 610px 610px 610px;
+animation: ars 2s infinite;
+animation-duration: 20s;
+position: relative;
+left-margin: 25px;
+}
+@keyframes ars {
+0%{background-color: red; left:0px;     }
+20%{background-color: blue; left:350px;     }
+40%{background-color: red; left: 650px;     }
+60%{background-color: blue; left: 950px;        }
+80%{background-color: red; left: 700px;   }
+100%{background-color: blue; left: 300px;      }
+}
+
+
+
+
+<div id="ars">WELCOME</div>
